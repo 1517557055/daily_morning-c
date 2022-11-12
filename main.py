@@ -21,6 +21,8 @@ template_id = os.environ["TEMPLATE_ID"]
 app_key = os.environ["APP_KEY"]
 constellation = os.environ["CONSTELLATION"]
 
+sisname = os.environ["USER_NAME"]
+
 def get_constellation():
   
   url = "http://web.juhe.cn/constellation/getAll?"
